@@ -7,3 +7,6 @@ run:
 stop:
 	docker stop latex
 	docker rm latex
+
+clean:
+	rm *.aux *.log *.out
